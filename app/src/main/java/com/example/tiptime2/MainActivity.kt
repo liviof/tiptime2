@@ -49,7 +49,6 @@ import java.text.NumberFormat
 class MainActivity : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        enableEdgeToEdge()
         setContent {
             Tiptime2Theme {
                 Surface(
